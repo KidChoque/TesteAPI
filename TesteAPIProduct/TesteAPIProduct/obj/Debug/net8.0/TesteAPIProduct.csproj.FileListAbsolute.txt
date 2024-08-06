@@ -135,3 +135,7 @@ C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\bin\Debug\
 C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\obj\Debug\net8.0\TesteAPIProduct.csproj.AssemblyReference.cache
 C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\obj\Debug\net8.0\TesteAPIProduct.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\obj\Debug\net8.0\TesteAPIProduct.csproj.CopyComplete
+C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\obj\Debug\net8.0\TesteAPIProduct.sourcelink.json
+C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\53297269804\Desktop\TesteAPI\TesteAPIProduct\TesteAPIProduct\bin\Debug\net8.0\Moq.dll

@@ -4,7 +4,7 @@ namespace TesteAPIProduct.Interface
 {
     public interface IProductRepository
     {
-        List<Products> Get(Products product);
+        List<Products> GetProducts();
         void Post(Products product);
         Products GetById(Guid id);
         void Delete(Guid id);
