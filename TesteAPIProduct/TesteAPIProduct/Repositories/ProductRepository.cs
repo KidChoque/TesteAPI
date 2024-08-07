@@ -17,7 +17,20 @@ namespace TesteAPIProduct.Repositories
 
         public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Products findProduct = _productContext.Products.Find(id)!;
+
+                if (findProduct != null)
+                {
+                    _productContext.Products.Remove(findProduct);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<Products> GetProducts()
@@ -65,7 +78,25 @@ namespace TesteAPIProduct.Repositories
 
         public void Update(Guid id, Products product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Products findProduct = _productContext.Products.Find(id);
+
+                if (findProduct != null)
+                {
+                    findProduct.Name = product.Name;
+                    findProduct.Price = product.Price;
+                }
+
+                _productContext.Products.Update(findProduct!);
+
+                _productContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
